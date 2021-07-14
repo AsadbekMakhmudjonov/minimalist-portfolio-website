@@ -25,3 +25,43 @@
   text-overflow: ellipsis;
   max-width: 100%;
 }
+
+
+@media only screen and (min-width: 768px){
+  /* TABLET SITE-HEADER */
+
+  .sitenav__list {
+    display: flex;
+    padding: 0;
+  }
+
+  .sitenav__item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 42px;
+  }
+
+  .sitenav__link {
+    color: $color-grayish-dark-blue;
+  }
+
+}
+
+
+@media only screen and  (min-width: 1150px){
+  .sitenav__link {
+    transition: color 0.3s ease, opacity 0.3s ease;
+
+    &--active {
+      color: var(--color-cyan);
+
+    }
+
+    &:hover {
+      color: rgba(95, 180, 162, 0.7);
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}

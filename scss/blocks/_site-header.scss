@@ -45,3 +45,37 @@
   background-color: $color-grayish-dark-blue;
   text-overflow: ellipsis;
 }
+
+
+@media only screen and (min-width: 768px) {
+
+  .site-header {
+    padding-top: 64px;
+    padding-bottom: 47px;
+
+
+  }
+
+  .site-header__toggler {
+    display: none;
+  }
+
+  .site-header--open .site-header__sitenav {
+    display: none;
+  }
+
+  .site-header .site-header__sitenav {
+    display: block;
+    position: static;
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+
+@media only screen and (min-width: 1150px) {
+  .site-header {
+    padding-top: 64px;
+    padding-bottom: 54px;
+  }
+}

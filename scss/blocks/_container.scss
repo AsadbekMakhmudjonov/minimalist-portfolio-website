@@ -6,3 +6,19 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@media only screen and (min-width: 768px) {
+  /* TABLET CONTAINER */
+  .container {
+     padding: 0 40px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+
+  /* DESKTOP CONTAINER */
+  .container {
+    padding: 0 20px;
+  }
+}
