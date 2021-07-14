@@ -62,11 +62,11 @@ img {
 
 .btn--simple {
   padding: 17px 35px;
-  color: var(--color-grayish-dark-blue);
-  border: 1px solid var(--color-grayish-dark-blue);
+  color: $color-grayish-dark-blue;
+  border: 1px solid $color-grayish-dark-blue;
 
   &--simple:hover {
-    background-color: var(--color-grayish-dark-blue);
-    color: var(--color-white);
+    background-color: $color-grayish-dark-blue;
+    color: $color-white;
   }
 }

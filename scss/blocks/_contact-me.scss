@@ -1,0 +1,130 @@
+/* CONTACT FROM MOBILE */
+
+.contact-me {
+  padding-bottom: 80px;
+}
+
+.contact-me__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-family: $secondary-font;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.5px;
+  color: $color-grayish-dark-blue;
+}
+
+.contact-me__form {
+  width: 100%;
+}
+
+.contact-form__input-box {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.contact-form__label {
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  color: rgba(51, 50, 61, 0.8);
+}
+
+.contact-form__input {
+  margin-top: 8px;
+  border: none;
+  border: 1px solid transparent;
+  font-size: 13px;
+  line-height: 30px;
+  display: block;
+  padding: 9px 16px;
+  width: 100%;
+  background-color: rgba(51, 50, 61, 0.1);
+}
+
+.contact-form__input::placeholder {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  color: rgba(51, 50, 61, 0.4);
+}
+
+.contact-form__input:not(:placeholder-shown):not(:focus):invalid {
+  border-color: $color-bright-red;
+}
+
+.contact-form__input:not(:placeholder-shown):not(:focus):valid {
+  border-color: $color-cyan;
+}
+
+.contact-form__input {
+  position: relative;
+}
+
+.contact-form__input-span {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.contact-form__input:not(:placeholder-shown):not(:focus):invalid~.contact-form__input-span {
+  margin-top: 4px;
+  font-style: italic;
+  display: block;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #F43030;
+}
+
+.contact-form__txt {
+  min-height: 96px;
+  resize: none;
+}
+
+.contact-form__btn {
+  padding: 17px 24px;
+  border: none;
+  background-color: $color-dark-blue;
+  color: $color-white;
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+  border: 1px solid $color-dark-blue;
+
+  &:hover {
+    background-color: $color-light-grey-bg;
+    color: $color-dark-blue;
+  }
+
+  &:active {
+    background-color: $color-dark-blue;
+    color: $color-light-grey-bg;
+    opacity: 0.6;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* CONTACT - FORM  */
+  .contact-me {
+    padding-bottom: 96px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .contact-me {
+    padding-bottom: 110px;
+    display: flex;
+
+  }
+
+  .contact-me__heading {
+    width: 350px;
+    flex-shrink: 0;
+    margin-right: 125px;
+    margin-bottom: 0;
+  }
+
+}
