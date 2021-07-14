@@ -1,0 +1,27 @@
+.sitenav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  padding: 40px 45px;
+
+}
+
+.sitenav__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.sitenav__link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $color-white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}

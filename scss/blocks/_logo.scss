@@ -1,0 +1,17 @@
+.logo {
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.logo__img {
+  display: block;
+}
