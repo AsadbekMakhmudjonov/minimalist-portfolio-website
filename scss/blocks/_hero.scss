@@ -70,7 +70,10 @@
 }
 
 
+
 @media only screen and (min-width: 768px){
+  /* TABLET HERO */
+
   .hero {
     position: relative;
   }
@@ -100,10 +103,10 @@
     font-size: 40px;
     line-height: 42px;
   }
+
 }
 
 @media only screen and (min-width: 1150px){
-
   /* HERO DESKTOP*/
 
   .hero__img-box {
@@ -120,5 +123,19 @@
   .hero__heading {
     margin-bottom: 50px;
   }
+
 }
 
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .hero__img-box {
+    background-image: url('../img/hero@2x.jpg');
+  }
+
+}

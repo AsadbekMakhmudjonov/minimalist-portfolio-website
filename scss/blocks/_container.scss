@@ -1,4 +1,5 @@
 /* CONTAINER */
+
 .container {
   max-width: 1150px;
   padding-left: 32px;
@@ -10,15 +11,18 @@
 
 @media only screen and (min-width: 768px) {
   /* TABLET CONTAINER */
+
   .container {
      padding: 0 40px;
   }
+
 }
 
 @media only screen and (min-width: 1150px) {
-
   /* DESKTOP CONTAINER */
+
   .container {
     padding: 0 20px;
   }
+
 }

@@ -4,7 +4,6 @@
   list-style: none;
   text-align: center;
   padding: 40px 45px;
-
 }
 
 .sitenav__item:not(:last-child) {
@@ -63,5 +62,7 @@
     &:active {
       opacity: 0.5;
     }
+
   }
+
 }

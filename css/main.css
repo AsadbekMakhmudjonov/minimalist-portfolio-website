@@ -702,6 +702,7 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
+  /* TABLET HERO */
   .hero {
     position: relative;
   }
@@ -743,6 +744,12 @@ img {
   }
   .hero__heading {
     margin-bottom: 50px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero__img-box {
+    background-image: url("../img/hero@2x.jpg");
   }
 }
 
@@ -882,6 +889,7 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
+  /* FOLLOW TABLET */
   .follow {
     padding-bottom: 96px;
     display: -webkit-box;
@@ -962,9 +970,9 @@ img {
 }
 
 .footer {
+  display: block;
   padding: 55px 100px;
   background-color: #33323D;
-  display: block;
 }
 
 .footer__container {
@@ -1052,6 +1060,7 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
+  /* TABLET FOOTER */
   .footer {
     padding: 24px 0;
   }
@@ -1323,13 +1332,14 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* CONTACT - FORM  */
+  /* CONTACT - FORM  TABLET */
   .contact-me {
     padding-bottom: 96px;
   }
 }
 
 @media only screen and (min-width: 1150px) {
+  /* CONTACT-ME DESKTOP */
   .contact-me {
     padding-bottom: 110px;
     display: -webkit-box;
